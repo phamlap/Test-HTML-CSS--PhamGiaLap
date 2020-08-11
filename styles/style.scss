@@ -1,0 +1,178 @@
+body {
+    font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+}
+.container-banner{
+    text-align: center;
+    .banner{
+        display: inline-flex;
+        margin: 29px 0px 70px 0px;
+        height: 85px;
+        width: 516px;
+        background-color: #d94e09;
+        border-radius: 10px;
+        box-shadow: 1px 1px #9b9b9b;
+        text-align: center;
+        .outline{
+            height: 72px;
+            width: 72px;
+            padding: 3px;
+            margin: 7px 0px 1px 58px;
+            border: solid white 2px;
+            border-radius: 50%;
+            .circle{
+                margin-left: 58px;
+                height: 61px;
+                width: 61px;
+                margin: 0;
+                background-color: white;
+                border-radius: 50%;
+                p{  
+                    margin: 0;
+                    font-size: 20pt;
+                    line-height: 61px;
+                    color: black;
+                }
+            }
+        }
+        p{
+            font-size: 20pt;
+            font-weight: bolder;
+            color: white;
+            line-height: 68px;
+            margin: 7px 0px 0px 12px;
+        }
+        h6{
+            font-size: 12pt;
+            font-weight: bolder;
+            color: white;
+            line-height: 68px;
+            margin-top: 7px;
+        }
+    }
+}
+
+
+.page-header{
+    h1{
+        font-size: 30pt;
+    }
+}
+
+.header-title{
+    div{
+        height: 1px;
+        width: 100%;
+        background-color: black;
+        margin-bottom: 27px;
+    }
+}
+
+.title{
+    font-size: 20pt;
+    color: #d94e09;
+}
+.row{
+    p{
+        margin: 30px 0px 30px 10px;
+    }
+}
+
+p{
+    font-size: 14pt;
+}
+.list-item{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    background-color: #f3f3f3;
+    ul{
+        margin: 0px;
+        padding-left: 15px;
+        padding-top: 20px;
+        li{
+            font-size: 14pt;
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            font-weight: bold;
+            div{
+                margin-right: 5px;
+                height: 10px;
+                width: 10px;
+                background-color: #d94e09;
+                border-radius: 50%;
+            }
+            p{
+                font-size: 12pt;
+                margin:0px;
+            }
+        }
+    }
+}
+
+.thubmnail{
+    float: right;
+    width: 90%;
+    margin-right: 30px;
+}
+
+.title-footer{
+    font-size: 20pt;
+    color: #d94e09;
+    margin: 10px 0px 10px 10px
+}
+@media (min-width: 375px) { 
+    .container-banner{
+        text-align: center;
+        .banner{
+            display: inline-flex;
+            margin: 10px 0px 0px 0px;
+            height: 85px;
+            width: 360px;
+            background-color: #d94e09;
+            border-radius: 10px;
+            box-shadow: 1px 1px #9b9b9b;
+            text-align: center;
+            .outline{
+                height: 72px;
+                width: 72px;
+                padding: 3px;
+                margin: 7px 0px 1px 2px;
+                border: solid white 2px;
+                border-radius: 50%;
+                .circle{
+                    margin-left: 58px;
+                    height: 61px;
+                    width: 61px;
+                    margin: 0;
+                    background-color: white;
+                    border-radius: 50%;
+                    p{  
+                        margin: 0;
+                        font-size: 20pt;
+                        line-height: 61px;
+                        color: black;
+                    }
+                }
+            }
+            p{
+                font-size: 20pt;
+                font-weight: bolder;
+                color: white;
+                line-height: 68px;
+                margin: 7px 0px 0px 0px;
+            }
+            h6{
+                font-size: 12pt;
+                font-weight: bolder;
+                color: white;
+                line-height: 68px;
+                margin: 7px 7px 0px 0px;
+            }
+        }
+    }
+    .thubmnail{
+        width: 100%;
+        margin: 10px 0px 0px 10px;
+    }
+}
