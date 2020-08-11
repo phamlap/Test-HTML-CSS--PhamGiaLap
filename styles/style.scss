@@ -12,6 +12,7 @@ body {
         border-radius: 10px;
         box-shadow: 1px 1px #9b9b9b;
         text-align: center;
+        
         .outline{
             height: 72px;
             width: 72px;
@@ -121,7 +122,7 @@ p{
     color: #d94e09;
     margin: 10px 0px 10px 10px
 }
-@media (min-width: 375px) { 
+@media (max-width: 375px) { 
     .container-banner{
         text-align: center;
         .banner{
